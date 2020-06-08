@@ -11,7 +11,7 @@ export class AppComponent {
   num2: number;
   result: number;
   add(){
-    this.check();
+    this.check(); /* en als ik het op intypen check moet ik dat hier niet insteken want dit is onsubmit */
     this.result = this.num1 + this.num2;
   }
   substract(){

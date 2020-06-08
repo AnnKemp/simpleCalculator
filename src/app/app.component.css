@@ -1,5 +1,6 @@
-@import '~bootstrap/dist/css/bootstrap.min.css';
-:host { /* ipv het op de body te zetten zet je het hier dus op de host, yep, inderdaad, zonet getest */
+@import '~bootstrap/dist/css/bootstrap.min.css'; /* dit in combinatie met: 'npm install bootstrap'  in de terminal (npm eerst installeren!) doet bootstrap werken */
+
+:host { /* ipv het op de body te zetten zet je het hier dus op de host */
   font-family:Helvetica, Arial, sans-serif;
   font-size: 14px;
   box-sizing: border-box;
