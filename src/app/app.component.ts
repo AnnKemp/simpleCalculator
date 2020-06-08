@@ -23,3 +23,5 @@ export class AppComponent {
     this.result = this.num1 % this.num2;
   }
 }
+
+
