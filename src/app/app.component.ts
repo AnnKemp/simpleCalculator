@@ -11,7 +11,7 @@ export class AppComponent {
   num2: number;
   result: number;
   add(){
-    this.check(); /* en als ik het op intypen check moet ik dat hier niet insteken want dit is onsubmit, het moet eerder on focus or on change zijn . . . en dat moet ik dan in de html steken */
+    this.check(); /* en als ik het op intypen check moet ik dat hier niet insteken want dit is onsubmit, het moet eerder on focus or on change zijn . . . en dat moet ik dan in de html steken, maar als ze niets invullen dan is het natuurlijk niet on change. .  . neen, ik moet na het verzenden checken of ze leeg zijn */
     this.result = this.num1 + this.num2;
   }
   substract(){
