@@ -1,3 +1,4 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
 :host { /* ipv het op de body te zetten zet je het hier dus op de host, yep, inderdaad, zonet getest */
   font-family:Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -16,16 +17,7 @@ a:hover {
   color: #1976d2;
   text-decoration: none;
 }
-footer {
-  margin-top: 8px;
-  display: flex;
-  align-items: center;
-  line-height: 20px;
-}
-footer a {
-  display: flex;
-  align-items: center;
-}
+
 /* Responsive Styles */
 @media screen and (max-width: 767px) {
 
