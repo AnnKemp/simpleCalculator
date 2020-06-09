@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Calculator App';
+  title = 'the Calculator App';
   num1: number;
   num2: number;
   result: number;
@@ -40,7 +40,7 @@ export class AppComponent {
   wrong(){
     document.getElementsByTagName('input')[0].style.backgroundColor = '#ff0000';
     document.getElementsByTagName('input')[1].style.backgroundColor = '#ff0000';
-    document.getElementsByTagName('p')[0].innerHTML = 'Some of the fields are empty, please fill in a number to complete the calculation.';
+    document.getElementsByTagName('p')[0].innerHTML = 'Some of the fields are empty, please fill in a number(s) to complete the calculation.';
     }
   right(){
     document.getElementsByTagName('input')[0].style.backgroundColor = '#fff';

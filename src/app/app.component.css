@@ -1,4 +1,4 @@
-@import '~bootstrap/dist/css/bootstrap.min.css'; /* dit in combinatie met: 'npm install bootstrap'  in de terminal (npm eerst installeren!) doet bootstrap werken */
+@import '~bootstrap/dist/css/bootstrap.min.css'; /* dit in combinatie met: 'npm install bootstrap'  in de terminal (npm éérst installeren!) doet bootstrap werken */
 
 :host { /* ipv het op de body te zetten zet je het hier dus op de host */
   font-family:Helvetica, Arial, sans-serif;
