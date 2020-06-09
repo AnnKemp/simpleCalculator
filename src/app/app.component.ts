@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'Calculator App';
   num1: number;
   num2: number;
-  result: any;
+  result: number;
   add(){
     this.check();
     this.result = this.num1 + this.num2;
@@ -48,7 +48,6 @@ export class AppComponent {
     document.getElementsByTagName('p')[0].innerHTML = '';
     }
 }
-
 /* https://karma-runner.github.io/1.0/config/configuration-file.html
  //te raadplegen voor die errors in de terminal na de boodschap dat de compile 'OK' is */
 
