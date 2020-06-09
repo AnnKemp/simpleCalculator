@@ -51,3 +51,8 @@ export class AppComponent {
 /* https://karma-runner.github.io/1.0/config/configuration-file.html
  //te raadplegen voor die errors in de terminal na de boodschap dat de compile 'OK' is */
 
+// https://leafletjs.com/ interessant voor landkaartjes in combinatie met . . .
+// to deploy my app: https://blog.bitsrc.io/deploy-your-angular-project-to-github-pages-7cbacb96f35b
+
+// bij over budjet warning bij deploy, in terminal, de geheugenwaarden aanpassen in angular.json
+// https://stackoverflow.com/questions/53995948/warning-in-budgets-maximum-exceeded-for-initial
