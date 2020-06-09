@@ -33,10 +33,10 @@ export class AppComponent {
       this.wrong();
     }
   }
-  // hier moet ik nog even aanpassen dat het inputfield met de fout in rood wordt en niet het andere
-  // hier ligt het antwoord in waarom ie die style niet verdraagt omdat het type van x fout is
-  // //omdat dat een element is: https://indepth.dev/exploring-angular-dom-manipulation-techniques-using-viewcontainerref/
-  // ik zou hier gebruik moeten maken van as om de typering van x in any te veranderen
+  // hier ligt het antwoord in waarom ie gesaved in een constante of
+  // let die style niet verdraagt omdat het type van die constante dan element en fout is:
+  // https://indepth.dev/exploring-angular-dom-manipulation-techniques-using-viewcontainerref/
+  // ik zou hier gebruik moeten maken van 'as' om de typering van de const of let in any te veranderen
   wrong(){
     document.getElementsByTagName('input')[0].style.backgroundColor = '#ff0000';
     document.getElementsByTagName('input')[1].style.backgroundColor = '#ff0000';
@@ -49,5 +49,6 @@ export class AppComponent {
     }
 }
 
-
+/* https://karma-runner.github.io/1.0/config/configuration-file.html
+ //te raadplegen voor die errors in de terminal na de boodschap dat de compile 'OK' is */
 
