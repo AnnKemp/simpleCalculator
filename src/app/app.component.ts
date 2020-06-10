@@ -54,5 +54,5 @@ export class AppComponent {
 // https://leafletjs.com/ interessant voor landkaartjes in combinatie met . . .
 // to deploy my app: https://blog.bitsrc.io/deploy-your-angular-project-to-github-pages-7cbacb96f35b
 
-// bij over budjet warning bij deploy, in terminal, de geheugenwaarden aanpassen in angular.json
+// bij over budget warning bij deploy, in terminal, de geheugenwaarden aanpassen in angular.json
 // https://stackoverflow.com/questions/53995948/warning-in-budgets-maximum-exceeded-for-initial
